@@ -14,6 +14,7 @@ class Adapter(val array: ArrayList<MyClass>) : RecyclerView.Adapter<Adapter.View
         val image: ImageView = item.findViewById(R.id.image)
         val name : TextView = item.findViewById(R.id.name)
         val surname : TextView = item.findViewById(R.id.surName)
+//        fdsa
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
