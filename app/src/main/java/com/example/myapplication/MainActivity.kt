@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import com.example.myapplication2.R
 
 class MainActivity : AppCompatActivity() {
@@ -30,13 +29,13 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun getList(): ArrayList<MyClass>{
-        val list = ArrayList<MyClass>()
-
-        (0..50).forEach {
-            list.add(MyClass("", "Name $it", "Surname $it"))
-        }
-
-        return list
-    }
+//    fun getList(): ArrayList<MyClass>{
+//        val list = ArrayList<MyClass>()
+//
+//        (0..50).forEach {
+//            list.add(MyClass("", "Name $it", "Surname $it"))
+//        }
+//
+//        return list
+//    }
 }
